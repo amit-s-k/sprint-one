@@ -8,4 +8,4 @@ COPY . .
 # Stage 2
 FROM node
 RUN npm install http-server -g
-CMD ["http-server","-p","8000", "dist/angularservice"]
+CMD ["http-server","-p","8000", "dist/AngularService"]
