@@ -145,7 +145,7 @@ services:
     restart: always
     mem_limit: 1024m
     container_name: Angular
-    network_mode: host
+    network_mode: "host"
     hostname: localhost
     ports:
       - 8000:8000
